@@ -1,0 +1,6 @@
+{
+  "title": "feat: integrate Stripe SDK for payment intents",
+  "head": "SyntaxHQDEV:feat/stripe-integration",
+  "base": "main",
+  "body": "This PR implements the Stripe SDK integration for the payment service.\n\n### Changes\n- Installed `stripe` package.\n- Replaced mock implementation with `stripe.paymentIntents.create` using the 2023-10-16 API version.\n- Added automatic payment methods mapping.\n\nPlease process bounty payout to the following wallet address:\n**Wallet (EVM):** `0x7F603CD46BC9C2ff735b8B347ed9F19430A0A131`\n\nThank you for reviewing."
+}
